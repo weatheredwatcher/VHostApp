@@ -12,8 +12,8 @@ Options:
 
 """
 
-__author__ = "David Duggins (weatheredwatcher@gmail.com)"
-__version__ = "$Revision: 0.1 $"
+__author__ = "David Duggins (david@duggins.net"
+__version__ = "$Revision: 0.2 $"
 __date__ = "$Date: 2012/09/22 21:57:19 $"
 __copyright__ = "Copyright (c) 2012 David Duggins"
 __license__ = "GPL3"
