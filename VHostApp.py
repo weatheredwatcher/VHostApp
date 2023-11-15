@@ -31,13 +31,13 @@ class VHostApp():
         # here we handle the command line input and test it for validity,
         # if there is an issue, we end the program and spit out errors.
     def print_name(self):
-        print """
+        print f"""
         <VirtualHost *:80>
-            ServerAlias %s
-            DocumentRoot /var/www/html/%s
-            ErrorLog logs/%s-error_log
-            CustomLog logs/%s-access_log combined
-        </VirtualHost>""" % (self.project, self.project, self.project, self.project)
+            ServerAlias {self.project}
+            DocumentRoot /var/www/html/{self.project}
+            ErrorLog logs/{self.project}-error_log
+            CustomLog logs/{self-project}-access_log combined
+        </VirtualHost>"""
 def usage():
         print __doc__
         
