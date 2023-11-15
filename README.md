@@ -3,7 +3,6 @@ VHostApp
 
 This is an application for creating vhost entries.  It takes a domain name for it main argument and then creates a vhost file as well as an entry in the hosts file for the vhost domain
 
-[![endorse](http://api.coderwall.com/davidduggins/endorsecount.png)](http://coderwall.com/davidduggins)
 ###Version 0.2 alpha ChangeLog 11/15/2023###
 
 - Changed to f-strings
